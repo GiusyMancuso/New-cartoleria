@@ -41,6 +41,9 @@ class HomeFragment : Fragment() {
 
         binding.buttonCerca.setOnClickListener {
             findNavController().navigate(R.id.action_homeFragment_to_ricercaFragment) }
+
+        binding.buttonCreazioni.setOnClickListener {
+            findNavController().navigate(R.id.action_homeFragment_to_craetionFragment) }
     }
 
     override fun onDestroyView() {

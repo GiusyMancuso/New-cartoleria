@@ -25,6 +25,9 @@
         <action
             android:id="@+id/action_homeFragment_to_ricercaFragment"
             app:destination="@id/ricercaFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_craetionFragment"
+            app:destination="@id/craetionFragment" />
     </fragment>
     <activity
         android:id="@+id/categoryActivity2"
@@ -36,4 +39,9 @@
         android:name="com.android.example.mycartoleria.RicercaFragment"
         android:label="fragment_ricerca"
         tools:layout="@layout/fragment_ricerca" />
+    <fragment
+        android:id="@+id/craetionFragment"
+        android:name="com.android.example.mycartoleria.CraetionFragment"
+        android:label="fragment_craetion"
+        tools:layout="@layout/fragment_craetion" />
 </navigation>

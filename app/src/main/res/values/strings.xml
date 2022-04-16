@@ -20,4 +20,9 @@
     <string name="cerca_il_tuo_articolo">Cerca il tuo articolo</string>
     <string name="not_find">Nessun elemento trovato</string>
     <string name="no_search">Non hai inserito nessun elemento nella ricerca</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="intro_creazioni">Scegli tra le nostre creazioni e ordina il tuo prodotto personalizzato</string>
+    <string name="ordina">ordina</string>
+    <string name="preferito">preferito</string>
 </resources>
