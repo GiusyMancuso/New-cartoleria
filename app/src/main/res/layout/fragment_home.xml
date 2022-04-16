@@ -10,7 +10,7 @@
 
 
     <Button
-        android:id="@+id/cerca"
+        android:id="@+id/button_cerca"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/cerca"
@@ -21,35 +21,35 @@
         app:layout_constraintEnd_toEndOf="parent"/>
 
     <Button
-        android:id="@+id/profilo"
+        android:id="@+id/button_profilo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/profilo"
         android:textSize="25sp"
         android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@id/cerca"
+        app:layout_constraintTop_toBottomOf="@id/button_cerca"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 
     <Button
-        android:id="@+id/categorie"
+        android:id="@+id/button_categorie"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/categorie"
         android:textSize="25sp"
         android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@id/profilo"
+        app:layout_constraintTop_toBottomOf="@id/button_profilo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 
     <Button
-        android:id="@+id/carrello"
+        android:id="@+id/button_carrello"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/carrello"
         android:textSize="25sp"
         android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@id/categorie"
+        app:layout_constraintTop_toBottomOf="@id/button_categorie"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 

@@ -18,5 +18,14 @@
         android:id="@+id/homeFragment"
         android:name="com.android.example.mycartoleria.HomeFragment"
         android:label="Home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_categoryActivity2"
+            app:destination="@id/categoryActivity2" />
+    </fragment>
+    <activity
+        android:id="@+id/categoryActivity2"
+        android:name="com.android.example.mycartoleria.CategoryActivity2"
+        android:label="activity_category"
+        tools:layout="@layout/activity_category" />
 </navigation>
