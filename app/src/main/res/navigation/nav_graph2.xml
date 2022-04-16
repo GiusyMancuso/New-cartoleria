@@ -22,10 +22,18 @@
         <action
             android:id="@+id/action_homeFragment_to_categoryActivity2"
             app:destination="@id/categoryActivity2" />
+        <action
+            android:id="@+id/action_homeFragment_to_ricercaFragment"
+            app:destination="@id/ricercaFragment" />
     </fragment>
     <activity
         android:id="@+id/categoryActivity2"
         android:name="com.android.example.mycartoleria.CategoryActivity2"
         android:label="activity_category"
         tools:layout="@layout/activity_category" />
+    <fragment
+        android:id="@+id/ricercaFragment"
+        android:name="com.android.example.mycartoleria.RicercaFragment"
+        android:label="fragment_ricerca"
+        tools:layout="@layout/fragment_ricerca" />
 </navigation>
