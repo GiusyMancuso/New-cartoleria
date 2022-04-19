@@ -9,17 +9,12 @@
 
     <TextView
         android:id="@+id/welcome"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="@string/benvenuti"
-        android:textAlignment="center"
-        android:textColor="@color/steel_blue"
-        android:textSize="24sp"
-        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@id/info"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/title"/>
 
     <TextView
         android:id="@+id/info"
@@ -43,7 +38,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/welcome" />
+        app:layout_constraintTop_toBottomOf="@id/welcome"
+        style="@style/button"/>
 
     <Button
         android:id="@+id/button_accedi"
@@ -54,5 +50,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/button_registrati" />
+        app:layout_constraintTop_toBottomOf="@id/button_registrati"
+        style="@style/button"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

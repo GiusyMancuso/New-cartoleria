@@ -23,39 +23,30 @@
 
     <TextView
         android:id="@+id/intro_creazioni"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="@string/intro_creazioni"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:textAlignment="center"
-        android:textColor="@color/steel_blue"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent"
+        style="@style/title"/>
 
     <Button
         android:id="@+id/button_ordina"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/ordina"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:textAllCaps="true"
         app:layout_constraintTop_toBottomOf="@id/presepe"
         app:layout_constraintStart_toEndOf="@id/button_preferito"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        style="@style/button"/>
 
     <Button
         android:id="@+id/button_preferito"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/preferito"
-        android:textAllCaps="true"
-        android:textSize="25sp"
-        android:textStyle="bold"
         app:layout_constraintTop_toBottomOf="@id/presepe"
         app:layout_constraintEnd_toStartOf="@id/button_ordina"
-        app:layout_constraintStart_toStartOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent"
+        style="@style/button"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

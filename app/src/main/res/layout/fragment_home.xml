@@ -14,53 +14,48 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/cerca"
-        android:textSize="25sp"
-        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        style="@style/button"/>
 
     <Button
         android:id="@+id/button_profilo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/profilo"
-        android:textSize="25sp"
-        android:textStyle="bold"
         app:layout_constraintTop_toBottomOf="@id/button_cerca"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        style="@style/button"/>
 
     <Button
         android:id="@+id/button_categorie"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/categorie"
-        android:textSize="25sp"
-        android:textStyle="bold"
         app:layout_constraintTop_toBottomOf="@id/button_profilo"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        style="@style/button"/>
 
     <Button
         android:id="@+id/button_carrello"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/carrello"
-        android:textSize="25sp"
-        android:textStyle="bold"
         app:layout_constraintTop_toBottomOf="@id/button_categorie"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        style="@style/button"/>
     <Button
         android:id="@+id/button_creazioni"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/creazioni"
-        android:textSize="25sp"
-        android:textStyle="bold"
         app:layout_constraintTop_toBottomOf="@id/button_carrello"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        style="@style/button"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
