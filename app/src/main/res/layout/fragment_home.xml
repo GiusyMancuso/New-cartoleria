@@ -11,51 +11,57 @@
 
     <Button
         android:id="@+id/button_cerca"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/button"
+        android:layout_width="@dimen/button_home_margin_width"
+        android:layout_height="@dimen/button_home_margin_height"
+        android:layout_marginTop="@dimen/button_home_marginTop"
         android:text="@string/cerca"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        style="@style/button"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button_profilo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/button"
+        android:layout_width="@dimen/button_home_margin_width"
+        android:layout_height="@dimen/button_home_margin_height"
+        android:layout_marginTop="@dimen/button_home_marginTop"
         android:text="@string/profilo"
-        app:layout_constraintTop_toBottomOf="@id/button_cerca"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        style="@style/button"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_cerca" />
 
     <Button
         android:id="@+id/button_categorie"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/button"
+        android:layout_width="@dimen/button_home_margin_width"
+        android:layout_height="@dimen/button_home_margin_height"
+        android:layout_marginTop="@dimen/button_home_marginTop"
         android:text="@string/categorie"
-        app:layout_constraintTop_toBottomOf="@id/button_profilo"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        style="@style/button"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_profilo" />
 
     <Button
         android:id="@+id/button_carrello"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/button"
+        android:layout_width="@dimen/button_home_margin_width"
+        android:layout_height="@dimen/button_home_margin_height"
+        android:layout_marginTop="@dimen/button_home_marginTop"
         android:text="@string/carrello"
-        app:layout_constraintTop_toBottomOf="@id/button_categorie"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        style="@style/button"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_categorie" />
+
     <Button
         android:id="@+id/button_creazioni"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/button"
+        android:layout_width="@dimen/button_home_margin_width"
+        android:layout_height="@dimen/button_home_margin_height"
+        android:layout_marginTop="@dimen/button_home_marginTop"
         android:text="@string/creazioni"
-        app:layout_constraintTop_toBottomOf="@id/button_carrello"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        style="@style/button"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_carrello" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
