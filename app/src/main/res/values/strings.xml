@@ -3,20 +3,19 @@
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">Welcome</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
+
 
     <string name="benvenuti">Benvenuti sulla vosta cartoleria a portata di mano</string>
     <string name="intro">Accedi o registarti per visualizzare tutte le offerte</string>
-    <string name="registrati">REGISTRATI</string>
-    <string name="accedi">ACCEDI</string>
+    <string name="registrati">registrati</string>
+    <string name="accedi">accedi</string>
     <string name="title_activity_welcome">WelcomeActivity</string>
 
-    <string name="cerca">CERCA</string>
-    <string name="profilo">PROFILO</string>
-    <string name="categorie">CATEGORIE</string>
-    <string name="carrello">CARRELLO</string>
-    <string name="creazioni">CREAZIONI</string>
+    <string name="cerca">cerca</string>
+    <string name="profilo">profilo</string>
+    <string name="categorie">categorie</string>
+    <string name="carrello">carrello</string>
+    <string name="creazioni">creazioni</string>
     <string name="cerca_il_tuo_articolo">Cerca il tuo articolo</string>
     <string name="not_find">Nessun elemento trovato</string>
     <string name="no_search">Non hai inserito nessun elemento nella ricerca</string>
