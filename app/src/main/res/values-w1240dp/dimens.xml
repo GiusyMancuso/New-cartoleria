@@ -2,4 +2,5 @@
     <dimen name="button_home_margin_width">500dp</dimen>
     <dimen name="button_home_margin_height">100dp</dimen>
     <dimen name="button_home_marginTop">12dp</dimen>
+    <dimen name="margin_default">16dp</dimen>
 </resources>
