@@ -24,4 +24,6 @@
     <string name="intro_creazioni">Scegli tra le nostre creazioni e ordina il tuo prodotto personalizzato</string>
     <string name="ordina">ordina</string>
     <string name="preferito">preferito</string>
+    <string name="description">inserisci la tua mail per registrarti</string>
+    <string name="hint_mail">Inserisci la tua mail</string>
 </resources>
